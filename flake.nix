@@ -22,7 +22,7 @@
       in rec {
         default = pkgs.mkShell {
           buildInputs = with pkgs; [
-            nodejs-18_x
+            nodejs_18
 
             nodePackages.pnpm-latest
           ];
