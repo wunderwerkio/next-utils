@@ -6,6 +6,7 @@ export type ServerActionPayload =
   | boolean
   | null
   | undefined
+  | object
   | ServerActionPayload[]
   | { [key: string | number]: ServerActionPayload };
 
